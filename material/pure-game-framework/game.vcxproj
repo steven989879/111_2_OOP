@@ -251,6 +251,7 @@
     <ClCompile Include="Source\Library\gameutil.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="zf.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Core\Game.h" />
@@ -264,6 +265,7 @@
     <ClInclude Include="Source\Library\audio.h" />
     <ClInclude Include="Source\Library\gamecore.h" />
     <ClInclude Include="Source\Library\gameutil.h" />
+    <ClInclude Include="zf.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Source\Core\game.rc" />
